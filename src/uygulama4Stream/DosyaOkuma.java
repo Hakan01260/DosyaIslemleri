@@ -42,6 +42,7 @@ public class DosyaOkuma {
 				Ogrenci ogrenci = (Ogrenci) objectInputStream.readObject();
 				System.out.println(ogrenci);
 			}
+		// while sonsuza kadar dönmesin diye cacth yazdýk .	
 		}catch (EOFException e) {
 			
 			System.out.println("Dosya okuma iþlemi bitti.");
